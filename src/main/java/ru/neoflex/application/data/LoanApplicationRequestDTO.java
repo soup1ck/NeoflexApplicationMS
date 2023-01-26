@@ -5,7 +5,7 @@ import jakarta.validation.constraints.*;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import ru.neoflex.application.utils.BirthDay;
+import ru.neoflex.application.utils.prescoring.BirthDay;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

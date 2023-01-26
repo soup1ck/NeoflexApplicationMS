@@ -1,4 +1,4 @@
-package ru.neoflex.application.utils;
+package ru.neoflex.application.utils.prescoring;
 
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
@@ -15,7 +15,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Retention(RUNTIME)
 @Documented
 public @interface BirthDay {
-    String message() default "{ru.neoflex.application.utils.BirthDate.message}";
+    String message() default "{ru.neoflex.application.utils.prescoring.BirthDate.message}";
 
     Class<?>[] groups() default {};
 

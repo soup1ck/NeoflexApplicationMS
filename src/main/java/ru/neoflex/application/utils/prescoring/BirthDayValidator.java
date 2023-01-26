@@ -1,7 +1,8 @@
-package ru.neoflex.application.utils;
+package ru.neoflex.application.utils.prescoring;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
+import ru.neoflex.application.utils.prescoring.BirthDay;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
