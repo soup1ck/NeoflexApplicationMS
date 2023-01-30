@@ -10,7 +10,7 @@ import ru.neoflex.application.data.LoanOfferDTO;
 import java.util.List;
 
 @FeignClient(name = "application", url = "http://localhost:8081/deal")
-public interface DealUtils {
+public interface FeignDealClient {
 
     @PostMapping(value = "/application")
     List<LoanOfferDTO> getLoanOffers(@RequestBody LoanApplicationRequestDTO loanApplicationRequestDTO);
